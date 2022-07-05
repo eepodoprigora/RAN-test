@@ -1,0 +1,24 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey-2b: #2b2b2b;
+  --grey-82: #827f7f;
+  --grey-85: #858585;
+  --violet-86: #867BCD;
+  --red-80: #b00202;
+}
+
+html[data-theme = 'dark'] {
+  --main-body-color: #0F0C1D;
+  --main-text-color: var(--white);
+  --button-input-background-color: #1A1726;
+  --plus-icon-fill: var(--violet-86)
+
+}
+
+html[data-theme = 'light'] {
+  --main-body-color: var(--white);
+  --main-text-color: var(--black);
+  --button-input-background-color: var(--white);
+  --plus-icon-fill: var(--black)
+}
